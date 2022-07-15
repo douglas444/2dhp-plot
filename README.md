@@ -7,16 +7,31 @@ Bellow there's an example of a figure plotted for the sequence `HHHHHHHHHHHHPHPH
 
 ![alt text](https://raw.githubusercontent.com/douglas444/2dhp-plot/master/example_figure.bmp)
 
-The following projects can be used to predict the direction given the sequence
+The following projects can be used to predict the directions given the sequence
 * https://github.com/douglas444/aco-2dhp
 * https://github.com/douglas444/pso-2dhp
 
+## Requirements
+* gcc
+* SDL2
+
+How to install SDL2:
+
+http://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/ 
+
+If the link is broken, try this other one:
+
+https://web.archive.org/web/20220706232201/http://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/
+
 ## Compilation
 
-To compile, execute the following command from the root of the project:
+To compile, execute each one of the following commands from the root of the project:
 
 ```
 gcc -Wall -O2  -c ./main.c -o ./main.o 
+```
+```
+gcc  -o ./2dhp-plot ./main.o -lSDL2 -lm -s
 ```
 
 ## How to run
