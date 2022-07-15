@@ -36,7 +36,7 @@ gcc  -o ./2dhp-plot ./main.o -lSDL2 -lm -s
 
 ## How to run
 
-After compiling it, you can run the aco-2dhp binary by executing the following command from the root of the project.
+After compiling it, you can run the 2dhp-plot binary by executing the following command from the root of the project.
 ```
 ./2dhp-plot "HHHHHHHHHHHHPHPHPPHHPPHHPPHPPHHPPHHPPHPPHHPPHHPPHPHPHHHHHHHHHHHH" "RLLSLRRLLRSRRLRLRRLLRRLLRRLRRLLRRLLRRLRRLLRRLLRRLRLRRSRLSSSLLSS" ./example_figure.bmp
 ```
