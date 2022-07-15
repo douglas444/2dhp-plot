@@ -5,7 +5,7 @@ It take as input the sequence of aminoacids, the direction of the edges between 
 
 Bellow we have the an example of a figure plotted for the sequence HHHHHHHHHHHHPHPHPPHHPPHHPPHPPHHPPHHPPHPPHHPPHHPPHPHPHHHHHHHHHHHH and directions RLLSLRRLLRSRRLRLRRLLRRLLRRLRRLLRRLLRRLRRLLRRLLRRLRLRRSRLSSSLLSS.
 
-![alt text](https://github.com/douglas444/2dhp-plot/blob/main/example_figure.bmp?raw=true)
+![alt text](https://raw.githubusercontent.com/douglas444/2dhp-plot/master/example_figure.bmp)
 
 ## Compilation
 
